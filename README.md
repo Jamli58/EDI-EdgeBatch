@@ -20,10 +20,14 @@ This version accurately simulates the protocol logic and mathematical proofs fou
 Python 3.8+
 ## How to Run
 Generate Data: Run the data generator to create the ground truth and corrupted edge servers.
-python3 GenRanData.py
+```
+python GenRanData.py
+```
 Run Protocol: Execute the main protocol simulation.
+```
 python3 EdgeBatch.py
+```
 ## Parameters
-You can modify data_scale, edge_scale, etc. in Config.py.
+You can modify data_scale, edge_scale, etc. in `Config.py`.
 
 
